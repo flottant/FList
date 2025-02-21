@@ -38,7 +38,7 @@ export default defineUserConfig({
         // 仓库所有者的用户名
         user: "flottant",
         // 仓库所有者的仓库名
-        repository: "zstu-wiki",
+        repository: "zstu-study",
         downProxy: cloudflarePagesDownProxy()
       }),
     }
