@@ -40,7 +40,7 @@ export default defineUserConfig({
         // 仓库所有者的仓库名
         repository: "zstu-study",
         downProxy: cloudflarePagesDownProxy(),
-        authorizationToken:`${env.githubtoken}`
+        authorizationToken:`${env.githubtokena}`
       }),
     }
   ])
