@@ -38,7 +38,7 @@ export default defineUserConfig({
         // 仓库所有者的用户名
         user: "flottant",
         // 仓库所有者的仓库名
-        repository: "Flist",
+        repository: "zstu-wiki",
         downProxy: cloudflarePagesDownProxy()
       }),
     }
