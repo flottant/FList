@@ -39,7 +39,8 @@ export default defineUserConfig({
         user: "flottant",
         // 仓库所有者的仓库名
         repository: "zstu-study",
-        downProxy: cloudflarePagesDownProxy()
+        downProxy: cloudflarePagesDownProxy(),
+        authorizationToken:${env.githubtoken}
       }),
     }
   ])
