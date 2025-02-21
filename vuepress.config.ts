@@ -34,12 +34,11 @@ export default defineUserConfig({
     {
       // 挂载路径
       mountPath: "/",
-      // 文件解析器，这里使用githubReleasesFilesAnalysis,可以解析github的release文件
       analysis: githubReposAnalysis({
         // 仓库所有者的用户名
         user: "flottant",
         // 仓库所有者的仓库名
-        repository: "zstu-study",
+        repository: "Flist",
         downProxy: cloudflarePagesDownProxy()
       }),
     }
